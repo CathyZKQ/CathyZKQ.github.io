@@ -9,7 +9,6 @@ author_profile: true
 
 {% for post in publications %}
   <div style="margin-bottom: 1.5em;">
-    <strong>{{ post.title }}</strong>
     {{ post.citation | markdownify }}
   </div>
 {% endfor %}
