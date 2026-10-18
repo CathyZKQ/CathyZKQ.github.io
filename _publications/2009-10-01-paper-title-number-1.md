@@ -1,8 +1,8 @@
 ---
-title: "Paper Title Number 1"
+title: "Inferring mind wandering from perceptual decision making"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: https://www.nature.com/articles/s44271-026-00424-9
 excerpt: 'This paper is about the number 1. The number 2 is left for future work.'
 date: 2009-10-01
 venue: 'Journal 1'
