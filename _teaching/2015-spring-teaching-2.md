@@ -1,11 +1,12 @@
 ---
-title: "Teaching experience 2"
+title: "First Year Experience: Contemporary Issues in Psychology"
 collection: teaching
-type: "Workshop"
+type: "seminar"
 permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
+venue: "Washington University in St. Louis"
 date: 2015-01-01
 location: "City, Country"
+semester: "Fall 2026"
 ---
 
 This is a description of a teaching experience. You can use markdown like any other post.
