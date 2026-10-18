@@ -5,8 +5,18 @@ permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
+{% assign courses = site.teaching | sort: "date" | reverse %}
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+{% for post in courses %}
+  <div style="margin-bottom: 1.5em;">
+    <div style="display: flex; justify-content: space-between; align-items: baseline; gap: 1em; flex-wrap: wrap;">
+      <strong>{{ post.title | escape }}</strong>
+      <span style="margin-left: auto; text-align: right;">
+        {{ post.semester | escape }}
+      </span>
+    </div>
+    {% if post.venue %}
+      <div><em>{{ post.venue | escape }}</em></div>
+    {% endif %}
+  </div>
 {% endfor %}
