@@ -1,5 +1,5 @@
 ---
-title: "Are the correlates of mind wandering consistent across younger and older adults?
+title: "Are the correlates of mind wandering consistent across younger and older adults?"
 collection: publications
 date: 2026-07-20
 citation: >-
